@@ -12,16 +12,17 @@ html {
     max-width: 1000px;
     color: rgb(54, 42, 63);
     font-family: 'Noto Sans Nag Mundari', sans-serif;
-    }
+
+}
 
 .container {
-    width: 300px;
+    max-width: 500px;
     height: 300px;
-    background-image: url(../img/Kalkulator.png);
+    background-image: url(../img/cash.jpg);
     background-size: cover;
     resize: both;
     overflow: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    margin: 15px auto;
 }

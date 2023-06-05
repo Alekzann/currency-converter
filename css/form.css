@@ -1,14 +1,16 @@
 .form {
-    max-width: 900px;
+    max-width: 1000px;
     padding: 10px 20px;
     margin: 20px auto;
 
 }
 
 .form__fieldset {
+    max-width: 90%;
+    margin: 20px auto;
     color: #455b65;
     background-color: whitesmoke;
-    border: 3px solid #455b65;
+    border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 17px -3px #394660;
 }
@@ -55,4 +57,9 @@
     border: none;
     border-radius: 4px;
     box-shadow: 0px 0px 17px -3px #394660;
+}
+
+.form_resultTogether{
+    
+     font-size: 13px;
 }
